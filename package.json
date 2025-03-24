@@ -1,5 +1,5 @@
 {
-  "name": "@coding-libs/vite-ext-manifest",
+  "name": "vite-ext-manifest",
   "version": "0.0.0-development",
   "description": "Vite plugin to generate a browser extension manifest dynamically.",
   "main": "index.js",
