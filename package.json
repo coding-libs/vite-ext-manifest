@@ -1,0 +1,48 @@
+{
+  "name": "vite-ext-manifest",
+  "version": "0.0.0-development",
+  "description": "Vite plugin to generate a browser extension manifest dynamically.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests specified\"",
+    "semantic-release": "semantic-release --branches master",
+    "commit": "git-cz"
+  },
+  "repositoryUrl": "https://github.com/coding-libs/vite-ext-manifest.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coding-libs/vite-ext-manifest.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "extension",
+    "manifest",
+    "browser",
+    "chrome",
+    "firefox",
+    "edge"
+  ],
+  "author": "Coding Libs",
+  "license": "MIT",
+  "contributors": [
+    "Coding Libs <codinglibs4u@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/coding-libs/vite-ext-manifest/issues"
+  },
+  "homepage": "https://github.com/coding-libs/vite-ext-manifest#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^24.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
