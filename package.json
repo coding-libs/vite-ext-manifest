@@ -1,5 +1,5 @@
 {
-  "name": "vite-ext-manifest",
+  "name": "@coding-libs/vite-ext-manifest",
   "version": "0.0.0-development",
   "description": "Vite plugin to generate a browser extension manifest dynamically.",
   "main": "index.js",
@@ -44,5 +44,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
